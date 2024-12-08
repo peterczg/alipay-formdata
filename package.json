@@ -1,6 +1,6 @@
 {
   "name": "alipay-formdata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "FormData polyfill for iOS Alipay WebView",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -10,7 +10,21 @@
     "build:deps": "father prebundle",
     "prepublishOnly": "father doctor && npm run build"
   },
-  "keywords": [],
+  "keywords": [
+    "alipay",
+    "formdata",
+    "upload",
+    "支付宝",
+    "文件上传"
+  ],
+  "homepage": "https://github.com/peterczg/alipay-formdata#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterczg/alipay-formdata.git"
+  },
+  "bugs": {
+    "url": "https://github.com/peterczg/alipay-formdata/issues"
+  },
   "authors": [
     "Peter Cheng<peterczg@163.com>"
   ],
